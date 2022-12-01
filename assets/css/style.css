@@ -1,6 +1,6 @@
 body {
   width: 450px;
-  font-family: Poppins;
+  font-family: "Font Awesome 5 Free";
 }
 
 .header {
@@ -40,14 +40,21 @@ h8 {
 table {
   margin-left: 10%;
   border-bottom: 0px;
+  border: 0px;
+  padding: 0px;
 }
-
-tr {
-  border: 1px solid black;
+tr:nth-child(1) {
+  background: rgba(0, 81, 255, 0.637);
+}
+tr:nth-child(even) {
+  background: rgba(58, 170, 255, 0.307);
 }
 
 td {
   border-bottom: 1px solid #ddd;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 h5 {
@@ -85,6 +92,12 @@ p.novita {
 }
 form {
   margin-left: 10%;
+}
+input {
+  border-style: dashed;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
 }
 p {
   margin-left: 5%;
